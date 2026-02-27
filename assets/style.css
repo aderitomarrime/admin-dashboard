@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar ul svg {
-  width: var(--large-size);
+  width: var(--mid-large-size);
   fill: var(--white-clr);
 }
 
@@ -100,8 +100,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar .sidebar-title svg {
-  width: var(--very-large-size);
+  width: var(--mid-very-large-size);
   fill: var(--white-clr);
+  justify-self: center;
 }
 
 .sidebar .sidebar-title span {
