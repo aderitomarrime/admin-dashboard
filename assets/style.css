@@ -3,6 +3,18 @@
     --blue-clr: #1992d4;
     --gray-clr: #e2e8f0;
     --yellow-clr: #f0b429;
+
+    --extra-large-size: 4rem;
+    --very-large-size: 3rem;
+    --mid-very-large-size: 2rem;
+    --large-size: 1.5rem;
+    --mid-large-size: 1.2rem;
+    --base-size: 1rem;
+    --small-size: 0.8rem;
+    --very-small-size: 0.6rem;
+    --extra-small-size: 0.4rem;
+
+
 }
 
 html {
@@ -62,6 +74,51 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar {
     background-color: var(--blue-clr);
     grid-area: sidebar;
+    display: grid;
+    align-content: flex-start;
+    padding: var(--base-size);
+    row-gap: var(--mid-very-large-size);
+}
+
+.sidebar ul svg {
+  width: var(--large-size);
+  fill: var(--white-clr);
+}
+
+.sidebar span {
+  color: var(--white-clr);
+  font-weight: 600;
+  font-size: var(--base-size);
+}
+
+
+.sidebar .sidebar-title {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar .sidebar-title svg {
+  width: var(--very-large-size);
+  fill: var(--white-clr);
+}
+
+.sidebar .sidebar-title span {
+  font-weight: bold;
+  font-size: var(--mid-large-size);
+}
+
+.sidebar .first-navigation-links ul li,
+.sidebar .second-navigation-links ul li {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: flex-start;
+}
+
+.sidebar .first-navigation-links ul li svg:first-child,
+.sidebar .second-navigation-links ul li svg:first-child{
+  justify-self: center;
 }
 
 .main {
