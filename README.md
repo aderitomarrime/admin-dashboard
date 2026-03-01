@@ -9,7 +9,7 @@
 
 ## Showcase 
 
-![Admin Dashboard's image](https://imgur.com/a/admin-dashboard-6EUfr7l.png)
+![Admin Dashboard's image](https://imgur.com/aqnVzMe.png)
 
 
 ## Overview
